@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'KoPubDotumMedium';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 
 
 body {
-  font-family: 'KoPubDotumMedium', sans-serif;
+  font-family: 'S-CoreDream-3Light', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -48,7 +48,7 @@ body {
 }
 
 a {
-  color: #d1c286;
+  color: #515151;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -65,9 +65,9 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
+  line-height: 1.3;
 }
 
 ::-webkit-selection {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   font-size: 13px;
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner .desc {
@@ -399,6 +399,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 100%;
 }
+
 @media screen and (max-width: 992px) {
   #fh5co-counter {
     height: inherit;
@@ -463,6 +464,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover.fh5co-cover-sm {
   height: 600px;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
     height: 400px;
@@ -685,6 +687,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 40px 20px;
   background: rgba(255, 255, 255, 0.8);
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .feature-center {
     margin-bottom: 50px;
@@ -711,7 +714,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: rgba(0, 0, 0, 0.05);
+  background: #fcfbf5;
 }
 
 #fh5co-services,
@@ -722,7 +725,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 6em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -743,7 +746,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 20px;
   float: left;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .feature-center {
@@ -754,31 +757,26 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-left: 180px;
 }
 .feature-center .icon {
-  width: 90px;
-  height: 90px;
-  background: #d1c286;
+  width: 150px;
+  height: 125px;
   display: table;
   text-align: center;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.feature-center .icon i {
-  display: table-cell;
-  vertical-align: middle;
-  height: 90px;
-  font-size: 40px;
-  line-height: 40px;
-  color: #fff;
+
+.del-icon {
+  width: 80%;
 }
+
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
 }
 .feature-center h3 {
-  text-transform: uppercase;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 600;
 }
@@ -803,7 +801,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 10px;
   padding: 10px;
   z-index: 100;
-  background: #d1c286;
+  background: #ffa490;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -833,10 +831,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .product .product-grid .inner p .icon {
   padding: 7px 10px;
   color: #fff;
-  background: #d1c286;
+  background: #ffa490;
 }
 .product .product-grid .inner p .icon:hover, .product .product-grid .inner p .icon:focus {
-  color: #d1c286;
+  color: #ffa490;
   background: #fff;
 }
 .product .desc h3 {
@@ -855,17 +853,13 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
 }
 .product:hover .product-grid, .product:focus .product-grid {
-  -webkit-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-  -ms-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-  -o-box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 10px 24px -7px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 10px 24px -7px rgba(170, 170, 170, 0.35);
 }
 .product:hover .inner, .product:focus .inner {
   opacity: 1;
 }
 .product:hover .desc h3 a, .product:focus .desc h3 a {
-  color: #d1c286;
+  color: #ffa490;
 }
 
 .product-carousel {
@@ -1002,18 +996,18 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 24px;
+  font-size: 34px;
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   color: #000;
 }
 .fh5co-heading p {
@@ -1025,13 +1019,13 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 2px;
   font-family: "Montserrat", Arial, sans-serif;
 }
 
 #fh5co-testimonial {
-  background: #efefef;
+  background: #fcfbf5;
 }
 #fh5co-testimonial .testimony-slide {
   text-align: center;
@@ -1051,18 +1045,19 @@ h1, h2, h3, h4, h5, h6, figure {
   *display: inline;
 }
 #fh5co-testimonial .testimony-slide figure img {
-  width: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+  width: 50%;
+  margin: 0 auto;
 }
 #fh5co-testimonial .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
-  width: 50%;
+  width: 65%;
   position: relative;
   padding: 0;
+}
+
+.banner-img {
+  width: 100%;
 }
 @media screen and (max-width: 992px) {
   #fh5co-testimonial .testimony-slide blockquote {
@@ -1493,7 +1488,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1522,13 +1517,13 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #d1c286;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #d1c286 !important;
-  border-color: #d1c286 !important;
+  background: #333 !important;
+  border-color: #333 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #d1c286;
-  border: 2px solid #d1c286;
+  color: #333;
+  border: 2px solid #8c8c8c;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #cf8fa4;

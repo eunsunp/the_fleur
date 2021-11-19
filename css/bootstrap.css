@@ -762,6 +762,7 @@ blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
+  font-size: 1.4rem;
 }
 blockquote footer,
 blockquote small,
