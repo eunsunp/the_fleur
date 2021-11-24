@@ -12,7 +12,7 @@
 
 
 body {
-  font-family: 'S-CoreDream-3Light', sans-serif;
+  font-family: 'noto-sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -88,6 +88,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav {
   padding: 18px 0;
   background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -114,7 +119,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .menu-2 li.search {
   float: left;
   width: 83%;
-  font-family: "Playfair Display", serif;
+  font-family: "noto-sans", serif;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -168,7 +173,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 10px 6px;
   line-height: 0;
   font-size: 11px;
-  background: #d1c286;
+  background: #ffd44c;
   color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -184,7 +189,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  font-family: 'noto-sans', Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   font-size: 13px;
@@ -335,8 +340,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
-  vertical-align: middle;
   min-height: 700px;
+  top: 40%;
+  left: 0;
+  position: absolute;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 24px;
@@ -714,7 +721,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: #fcfbf5;
+  background: #fff;
 }
 
 #fh5co-services,
@@ -801,7 +808,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 10px;
   padding: 10px;
   z-index: 100;
-  background: #ffa490;
+  background: #ffd44c;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -831,15 +838,14 @@ h1, h2, h3, h4, h5, h6, figure {
 .product .product-grid .inner p .icon {
   padding: 7px 10px;
   color: #fff;
-  background: #ffa490;
+  background: #ffd44c;
 }
 .product .product-grid .inner p .icon:hover, .product .product-grid .inner p .icon:focus {
-  color: #ffa490;
+  color: #ffd44c;
   background: #fff;
 }
 .product .desc h3 {
   font-size: 14px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 5px;
   font-weight: bold;
@@ -859,7 +865,7 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 1;
 }
 .product:hover .desc h3 a, .product:focus .desc h3 a {
-  color: #ffa490;
+  color: #ffd44c;
 }
 
 .product-carousel {
@@ -1011,7 +1017,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #828282;
 }
@@ -1022,6 +1028,65 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   letter-spacing: 2px;
   font-family: "Montserrat", Arial, sans-serif;
+}
+
+.section-wrap {
+    background: #b0bf99;
+    height: 85vh;
+    position: relative;
+}
+
+.text-wrap {
+  padding: 238px 110px 20px;
+}
+.btn-wrap {
+  width: 10%;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 5px;
+  text-align: center;
+  margin-left: 110px;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+.btn-wrap:hover {
+  background-color: #fff;
+  color: #b0bf99;
+}
+.inner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-family: serif;
+}
+.sub-desc {
+  color: #fff;
+  font-size: 1.8rem;
+    line-height: 1.8;
+}
+.bn-img {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.txt-ani {
+  width: 26%;
+  position: absolute;
+  bottom: 5%;
+  right: 43%;
+}
+
+.txt-ani img {
+  animation: rotate_image 9s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+	100% {
+    	transform: rotate(360deg);
+    }
 }
 
 #fh5co-testimonial {
@@ -1488,7 +1553,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: 'S-CoreDream-3Light', Arial, sans-serif;
+  font-family: 'noto-sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1498,7 +1563,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  padding: 8px 20px;
+  padding: 15px 30px;
 }
 .btn.btn-md {
   padding: 8px 20px !important;
